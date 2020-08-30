@@ -1,5 +1,5 @@
 # Bias Visualizer & Application Predictor
-## 1 Overview
+## 1. Overview
 Fair warning: this is a direct product of nothing but my hyperfixation on solving a problem that didn't need a solution.
 
 For a club that I am in at USC, there are 9 people on the e-board who need to grade applications.
@@ -23,7 +23,7 @@ I made this visualization & prediction script to:
 5. develop a customizable framework to estimate differently based on different applications & situations
 
 
-## 2 Data Privacy
+## 2. Data Privacy
 There are lots of applications, and I was too lazy to keep copying over the data,
 so I linked it to the club's Google account. 
 However, a side effect of this is that there is literally no trace of the application or data!
@@ -32,7 +32,7 @@ I really, highly doubt that there'll be people investigating my github for club 
 If I do upload an example down the road, I will remove traces of names.
 
 
-## 3 Data/Code Explanation
+## 3. Data/Code Explanation
 ### 3.1 How to run
 Anyone in the club that wants the API key to reuse the code, follow these instructions 
 (you have to have access to the google account):
@@ -86,13 +86,13 @@ I use a weighted average of the scores each grader gives plus their respective b
 Any score that is changed will have a created_est value of 1, and any application that didn't fall within the 
 lo/hi filter set in runner.py will have a create_est value of 0.
 
-## In Practice
+## 4. In Practice
 I will update this section after the recruitment process finishes. At this point, we grade applications to select people
 above a certain threshold to interview. I highly recommend anyone using this to be inclusive about results, meaning
 only use my code to accept people who might've had a better chance with different graders 
 instead of people who would've had a worse chance with different graders.
 
-## Future Development
+## 5. Future Development
 I will most likely work on this project again in the winter. I want to develop a neural network with more parameters
 than just the other scores - e.g. major/year of applicant, length of applicant responses, maybe even some NLP.
 
