@@ -90,7 +90,7 @@ lo/hi filter set in runner.py will have a create_est value of 0.
 I will update this section after the recruitment process finishes. At this point, we grade applications to select people
 above a certain threshold to interview. I highly recommend anyone using this to be inclusive about results, meaning
 only use my code to accept people who might've had a better chance with different graders 
-instead of people who would've had a worse chance with different graders.
+instead of gatekeeping people who would've had a worse chance with different graders.
 
 ## 5. Future Development
 I will most likely work on this project again in the winter. I want to develop a neural network with more parameters
